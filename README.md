@@ -248,7 +248,7 @@ Epoch 10/10
 test accuracy: 0.9114999771118164
 ```
 
-准确率随epoch变化曲线：
+模型准确率随epoch变化曲线：
 ![](https://github.com/Lukeli0425/Gender-Classification/raw/main/test1_curve.jpg)
 
 训练数据集的混淆矩阵：
@@ -327,7 +327,7 @@ Epoch 10/10
 test accuracy: 0.8683333396911621
 ```
 
-准确率随epoch变化曲线：
+模型准确率随epoch变化曲线：
 ![](https://github.com/Lukeli0425/Gender-Classification/raw/main/test2_curve.jpg)
 
 训练数据集的混淆矩阵：
