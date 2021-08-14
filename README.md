@@ -44,7 +44,7 @@ for name in female_name:
 
 接下来从male和female两文件夹中将jpeg文件读入为tensor，并和标签组成元组（0表示男性，1表示女性），将每组数据得到的元组存入examples列表中，并统计总共的数据组数：
 ```python
-# 文件名+标签的元组组成examples列表
+# 读取图片文件，图片数据+标签的元组组成examples列表
 examples = []
 for name in male_name:
     image = tf.io.read_file(f"/Users/Luke/Jupyter/Summer_Python/male/{name}")
@@ -347,18 +347,21 @@ test accuracy: 0.8683333396911621
 虽然本次作业比较难，但受益颇多。
 
 ### 四、文件清单
-Readme.md                                       说明文档
-male_names.txt                                  男性照片名称文件
-female_names.txt                                女性照片名称文件
-lfw_funneled.zip                                全部照片
-gender-classification.py                        完整代码
-test1_curve.jpg                                 第一次训练模型的准确率变化曲线
-test1_test_mat.jpg                              第一次训练模型的测试集混淆矩阵
-test1_train_mat.jpg                             第一次训练模型的训练集混淆矩阵
-test2_curve.jpg                                 第二次训练模型的准确率变化曲线
-test2_test_mat.jpg                              第二次训练模型的测试集混淆矩阵
-test2_train_mat.jpg                             第二次训练模型的训练集混淆矩阵
-2021年夏季学期Python程序设计大作业指引0721.pdf       指导文档
+
+    README.md                                       说明文档
+    male_names.txt                                  男性照片名称文件
+    female_names.txt                                女性照片名称文件
+    lfw_funneled.tar                                全部照片（后附下载链接）
+    gender-classification.py                        完整代码
+    test1_curve.jpg                                 第一次训练模型的准确率变化曲线
+    test1_test_mat.jpg                              第一次训练模型的测试集混淆矩阵
+    test1_train_mat.jpg                             第一次训练模型的训练集混淆矩阵
+    test2_curve.jpg                                 第二次训练模型的准确率变化曲线
+    test2_test_mat.jpg                              第二次训练模型的测试集混淆矩阵
+    test2_train_mat.jpg                             第二次训练模型的训练集混淆矩阵
+    2021年夏季学期Python程序设计大作业指引0721.pdf       指导文档
+
+[照片下载链接](https://cloud.tsinghua.edu.cn/f/71a2146a09f24b9984a5/)
 
 ### 五、参考资料
 
